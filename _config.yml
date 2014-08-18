@@ -1,0 +1,8 @@
+
+name: ""
+description: "Henryk Paluch user pages"
+url: "http://hpaluch.github.io"
+
+exclude: [ "*.sh" , "*.swp", "README.md" ]
+
+
