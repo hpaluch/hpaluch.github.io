@@ -1,8 +1,8 @@
 ###Henryk's web site generated with Jekyll
-This is source of my website - (http://pi.henryx.info)
+This is source of my website - (http://hpaluch.github.io)
 
 #License
-You can use this freely only if you: Change name of this site (henryx.info) in all files.
+You can use this freely only if you: Change name of this site (*hpaluch*) in all files.
 
 #Setup
 
