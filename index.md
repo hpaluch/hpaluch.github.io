@@ -1,12 +1,12 @@
 ---
-title: Welcome to do.henryx.info!
+title: Homepage
 layout: default
-description: This is Homepage of henryx.info site
-keywords: henryx.info henryx home homepage
+description: Welcome to GitHub pages of Henryk
+keywords: github homepage
 ---
 ###Hello!
 
-This is homepage of do.henryx.info
+Here are Henryk's GitHub pages.
 
 Most recent Posts:
 
