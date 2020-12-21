@@ -1,5 +1,5 @@
 #/usr/bin/env bash
 
 set -x
-env jekyll serve --watch --config _config.yml,_config_server.yml
+bundle exec jekyll serve --watch --config _config.yml,_config_server.yml
 

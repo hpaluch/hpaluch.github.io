@@ -6,22 +6,21 @@ You can use this freely only if you: Change name of this site (*hpaluch*) in all
 
 #Setup
 
-For Rasp/Debian ensure that you have Ruby Dev package installed, for example:
 
-	:::bash
-	sudo apt-get install ruby1.9.1-dev
+Now tested on openSUSE LEAP 15.2. Incomplete setup instructions:
 
-Install Jekyll itself:
+```shell
+sudo zypper in ruby2.5-rubygem-bundler
+sudo zypper in ruby2.5-devel
+bundle install --path vendor/bundle
+```
 
-	:::bash
-	sudo gem install jekyll
-
-#To Genereate static pages
+## To Genereate static pages
 
 	:::bash
 	./generate_website.sh
 
-#To Develop pages dynamically
+## To Develop pages dynamically
 
 	:::bash
 	./run_jekyll_server.sh

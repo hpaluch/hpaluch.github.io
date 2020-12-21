@@ -4,7 +4,7 @@ layout: default
 description: Welcome to GitHub pages of Henryk
 keywords: github homepage
 ---
-###Hello!
+# Hello!
 
 Here are Henryk's GitHub pages.
 

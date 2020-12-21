@@ -1,7 +1,7 @@
 #/usr/bin/env bash
 
 set -x
-env jekyll build --config _config.yml
+bundle exec jekyll build --config _config.yml
 exit $?
 
 

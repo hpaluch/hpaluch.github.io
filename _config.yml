@@ -3,6 +3,6 @@ name: ""
 description: "Henryk Paluch user pages"
 url: "http://hpaluch.github.io"
 
-exclude: [ "*.sh" , "*.swp", "README.md" ]
-
+# See https://github.com/jekyll/jekyll/issues/5267#issuecomment-241379902
+exclude: [ "vendor", "*.sh" , "*.swp", "README.md" ]
 
