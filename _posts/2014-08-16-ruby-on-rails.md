@@ -1,6 +1,6 @@
 ---
 title: Reading Ruby on Rails
-layout: default
+layout: post
 ---
 
 Trying to follow step by step tutorial from Rails book. See github repo at

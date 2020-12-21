@@ -1,6 +1,6 @@
 ---
 title: CasperJS functional test for OTRS
-layout: default
+layout: post
 ---
 
 Learning by doing - wrote CasperJS scripts to make basic tests on OTRS 3.2. See

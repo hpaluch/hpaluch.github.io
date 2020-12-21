@@ -1,7 +1,18 @@
 
-name: ""
-description: "Henryk Paluch user pages"
-url: "https://hpaluch.github.io"
+title: Henryk's Development Blog
+email: Henryk.Paluch@email.placeholder
+description: >- # this means to ignore newlines until "baseurl:"
+        Welcome to Henryk's development blog!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: HenrykPaluch
+github_username:  hpaluch
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
 
 # See https://github.com/jekyll/jekyll/issues/5267#issuecomment-241379902
 exclude: [ "vendor", "*.sh" , "*.swp", "README.md" ]
