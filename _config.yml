@@ -1,7 +1,7 @@
 
 name: ""
 description: "Henryk Paluch user pages"
-url: "http://hpaluch.github.io"
+url: "https://hpaluch.github.io"
 
 # See https://github.com/jekyll/jekyll/issues/5267#issuecomment-241379902
 exclude: [ "vendor", "*.sh" , "*.swp", "README.md" ]
