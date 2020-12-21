@@ -1,11 +1,10 @@
-###Henryk's web site generated with Jekyll
+# Henryk's web site generated with Jekyll
 This is source of my website - (https://hpaluch.github.io)
 
-#License
+## License
 You can use this freely only if you: Change name of this site (*hpaluch*) in all files.
 
-#Setup
-
+## Setup
 
 Now tested on openSUSE LEAP 15.2. Incomplete setup instructions:
 
@@ -17,15 +16,17 @@ bundle install --path vendor/bundle
 
 ## To Genereate static pages
 
-	:::bash
-	./generate_website.sh
+```shell
+./generate_website.sh
+```
 
 ## To Develop pages dynamically
 
-	:::bash
+```shell
 	./run_jekyll_server.sh
+```
 
-#Links
+## Links
 
 *	[Jekyll by Example](http://www.andrewmunsell.com/tutorials/jekyll-by-example/index.html)
 
