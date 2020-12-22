@@ -8,7 +8,7 @@ Inspired by positive feedback on [Eva's
 Blog](https://evaparish.com/blog/2018/10/19/antora-and-docusaurus-duke-it-out)
 I decided to give Docusaurus (WebSite generator from Facebook) try.
 
-There are currently (2020-12-22) two incompatible versions 
+There are currently (2020-12-22) two incompatible versions
 of Docusaurus:
 
 - stable version v1 on
@@ -23,7 +23,7 @@ from <https://docusaurus.io/docs/en/tutorial-setup>
 
 > WARNING!
 >
-> Tutorial on 
+> Tutorial on
 > <https://docusaurus.io/docs/en/installation#installing-docusaurus>
 > is a bit misleading - it instructs you to install `yarn` but then
 > it uses `npx` command which is from alternative - `npm` packager.
@@ -42,6 +42,7 @@ v14.14.0
 
 Install Yarn (version must be `>= 1.5`),
 from <https://tecadmin.net/install-yarn-centos/>:
+
 ```shell
 $ sudo curl -sL https://dl.yarnpkg.com/rpm/yarn.repo \
     -o /etc/yum.repos.d/yarn.repo
@@ -60,8 +61,9 @@ $ nodejs  --version
 v10.21.0
 ```
 
-Install Yarn (provides `npx`, version must be `>= 1.5`),
+Install Yarn (version must be `>= 1.5`),
 from <https://classic.yarnpkg.com/en/docs/install/#debian-stable>:
+
 ```shell
 $ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | \
     sudo apt-key add -
@@ -75,6 +77,7 @@ $ yarn --version
 ## Setup (continued - for both Fedora 33 and Debian 10)
 
 Install `docusaurus-init` package and command:
+
 ```shell
 # NOTE: "global" means - global for user (not project scope)
 yarn global add docusaurus-init
@@ -93,6 +96,7 @@ source ~/.bashrc
 ```
 
 Now setup example website:
+
 ```shell
 $ mkdir -p ~/projects/docusaurus-gs
 $ cd ~/projects/docusaurus-gs
@@ -114,15 +118,15 @@ Docusaurus server started on port 3000
 Now you can access web server on `http://localhost:3000`.
 
 > To access your site remotely you may need to enable TCP port 3000 in firewall:
-> 
+>
 > ```shell
 > $ sudo firewall-cmd --add-port=3000/tcp
 > success
 > $ sudo firewall-cmd --add-port=3000/tcp --permanent
 > success
 > ```
+>
 > This is typically needed on RedHat based distributions (Fedora33)...
-
 
 To generate static pages do this (still in `website` folder):
 
@@ -130,20 +134,23 @@ To generate static pages do this (still in `website` folder):
 # Press Ctrl-C to shutdown embedded web server and then
 $ yarn build
 ```
+
 And look into `build/test-site/`
 
 ## Notes
 
 There are by default included external things, for example:
-- `https://buttons.github.io/buttons.js`
+
+* `https://buttons.github.io/buttons.js`
 
 ## Resources
 
 * Docusaurus v1:
+
   - [Home site](https://docusaurus.io/)
   - [Tutorial](https://docusaurus.io/docs/en/tutorial-setup)
   - [Getting started](https://docusaurus.io/docs/en/installation)
-  - [Publishing site on GitHub Pages](https://docusaurus.io/docs/en/publishing#using-github-pages) (not tested - I use Jekyll)
+  - [Publishing site on GitHub Pages](https://docusaurus.io/docs/en/publishing#using-github-pages) - not tested - I use Jekyll
 
 --hp
 
