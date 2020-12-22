@@ -1,7 +1,8 @@
 ---
 title: Docusaurus v1 Quick Start
 layout: post
-category: documentation generator docusaurus
+tags: documentation generator docusaurus
+category: howto
 ---
 
 Inspired by positive feedback on [Eva's
