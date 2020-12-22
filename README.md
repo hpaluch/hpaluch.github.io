@@ -28,11 +28,13 @@ bundle install --path vendor/bundle
 
 ## Links
 
-*	[Jekyll by Example](http://www.andrewmunsell.com/tutorials/jekyll-by-example/index.html)
+* [Krammdown quick reference](https://kramdown.gettalong.org/quickref.html)
 
-*	[Jekyll configuration](http://jekyllrb.com/docs/configuration/)
+* [Jekyll by Example](http://www.andrewmunsell.com/tutorials/jekyll-by-example/index.html)
 
-*	[Jekyll variables](http://jekyllrb.com/docs/variables/)
+* [Jekyll configuration](http://jekyllrb.com/docs/configuration/)
 
-*	[MarkDown syntax](http://daringfireball.net/projects/markdown/syntax)
+* [Jekyll variables](http://jekyllrb.com/docs/variables/)
+
+* [MarkDown syntax](http://daringfireball.net/projects/markdown/syntax)
 

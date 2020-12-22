@@ -18,3 +18,12 @@ Please visit my:
 If you want to know more about me you can
 visit [My WebSite](https://www.henryx.info)
 
+## How are these pages generated
+
+I use [Jekyll support on GitHub pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll)
+
+I just commit to `master` branch of this Git project:
+- `git@github.com:hpaluch/hpaluch.github.io.git` 
+You can read step-by-step setup instrocutions on public URL:
+- <https://github.com/hpaluch/hpaluch.github.io>
+
