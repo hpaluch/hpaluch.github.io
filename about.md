@@ -25,9 +25,10 @@ I use [Jekyll support on GitHub pages](https://docs.github.com/en/free-pro-team@
 
 I just commit to `master` branch of this Git project:
 
-* `git@github.com:hpaluch/hpaluch.github.io.git`
+* GIT+SSH:  `git@github.com:hpaluch/hpaluch.github.io.git`
+* GIT+HTTPS: `https://github.com/hpaluch/hpaluch.github.io.git`
 
-You can read step-by-step setup instrocutions on public URL:
+You can read step-by-step setup instructions on public URL:
 
 * <https://github.com/hpaluch/hpaluch.github.io>
 
