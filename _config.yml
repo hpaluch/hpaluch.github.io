@@ -2,7 +2,8 @@
 title: Henryk's Development Blog
 email: Henryk.Paluch@email.placeholder
 description: >- # this means to ignore newlines until "baseurl:"
-        Welcome to Henryk's development blog!
+        Welcome and enjoy reading what we developers
+        do in our spare time!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: HenrykPaluch

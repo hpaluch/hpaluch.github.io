@@ -1,2 +1,7 @@
 _site/
 vendor/
+# vim backup files
+*~
+*.swp
+*.tmp
+*.bak
