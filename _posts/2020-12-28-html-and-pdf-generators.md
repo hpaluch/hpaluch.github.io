@@ -25,7 +25,7 @@ This narrows scope to few candidates:
 
 Please see my PoC project with live examples on:
 
-* https://github.com/hpaluch/html-and-pdf-generators
+* <https://github.com/hpaluch/html-and-pdf-generators>
 
 --hp
 
