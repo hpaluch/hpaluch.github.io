@@ -21,7 +21,11 @@ This narrows scope to few candidates:
   - [Fedora Publican][fedora-publican], but RedHat may dump it
     in [favour of Antora][fedora-to-antora]
 
-## TODO: Proof of concepts
+## Proof of concepts
+
+Please see my PoC project with live examples on:
+
+* https://github.com/hpaluch/html-and-pdf-generators
 
 --hp
 
